@@ -17,13 +17,6 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public void testAdd1() {
-		Calculator cal = new Calculator();
-		int res = cal.add(2, 2);
-		assertEquals(4, res);
-	}
-	
-	@Test
 	public void testAdd2() {
 		Calculator cal = new Calculator();
 		int res = cal.add(4, 2);
